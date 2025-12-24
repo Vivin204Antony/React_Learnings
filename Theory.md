@@ -21,9 +21,16 @@ Component:( A component is a small setion of code that can include javascript an
 - inside the function we can return something return(pure HTMl);
 - within our return statements we can insert some js using {}
 - outside the return statements we dont need {we cna js  methods too} to use js codes
-- react components capable of creating of single element can have children element.
+- react components only capable of creating of single element can have mutiple children element.
 - return statements are designed only to return one component at a time.
 - jsx element must be wrapped in an enclosing tag <></>
 - we can reusing the component if we would like .
 
 ---------------------------------------------------------------------------------------
+
+Card Component:
+
+it involves a picture, a title and a description using css we can make the card look professional.
+
+---------------------------------------------------------------------------------------
+
