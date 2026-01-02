@@ -1,5 +1,5 @@
 import profilePic from "./assets/pwa-192x192.png";
-
+//card component
 function Card(){
     return(
 

@@ -1,4 +1,4 @@
-
+//Function based components with JSX
 function Food(){
 
     const food1 = "Apple";
