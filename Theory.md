@@ -76,11 +76,19 @@ Rendering lists in React is the process of taking a collection of data (like an 
 
 ----------------------------------------------------------------------------------------
 
-6) clickEvents : 
+6) clickEvents : (Button.jsx)
 
 An interaction when a user clicks on a specific elements.
 We can respond to clicks by passing a callback to the onclick eventHandler.
 
 ----------------------------------------------------------------------------------------
 
+7) useState() Hook : (MyComponent.jsx)
 
+React Hook -> The special Functions that allows functional components to use react feature without writing class components(React v16.8)
+(useState(), useEffect(), useContext(), useReducer(), useCallback() and more... )
+
+useState() -> A react Hook that allows the creation of a  stateful variable and a setter function to update its value in the value virtual DOM.
+[name, setName]
+
+----------------------------------------------------------------------------------------
