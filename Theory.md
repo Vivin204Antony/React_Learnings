@@ -14,7 +14,7 @@ Project Structure :
 ---------------------------------------------------------------------------------------
 
 Component:( A component is a small setion of code that can include javascript and html)
-
+(Header,Footer.jsx)(Food.jsx)
 - A component is a self contained section of code that functions as a reusable building block.
 - function based components pay attention to capitalization of component name 
 - end of the file export the component, it could be import else where 
@@ -28,7 +28,7 @@ Component:( A component is a small setion of code that can include javascript an
 
 ---------------------------------------------------------------------------------------
 
-Card Component:
+Card Component:(Card.jsx)
 
 it involves a picture, a title and a description using css we can make the card look professional.
 
@@ -42,7 +42,7 @@ How to style react components with CSS:(N0 external frameworks or preprocessors)
 
 ---------------------------------------------------------------------------------------
 
-Props :
+Props :(Student.jsx)
 
 - Read only properties that are shared between the components
 - Parent component can send data to child component
@@ -63,10 +63,14 @@ Default Props :
 # defaultProps are now deprecated in React 19+ 
 ---------------------------------------------------------------------------------------
 
-Conditonal Rendering :
+Conditonal Rendering :(UserGreeting.jsx)
 
-- allows you to what need to get rendered in your application based on certain conditions. But utilizin conditional rendering we can(Show, Hide or change components).
+- allows you to what need to get rendered in your application based on certain conditions. But utilizing conditional rendering we can(Show, Hide or change components).
 
 ---------------------------------------------------------------------------------------
+Rendering Lists:(List.jsx)
 
+Rendering lists in React is the process of taking a collection of data (like an array) and transforming it into a set of interactive user interface elements . The core mechanism involves using the JavaScript .map() array method within JSX. 
+
+----------------------------------------------------------------------------------------
 
