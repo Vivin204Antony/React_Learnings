@@ -92,3 +92,39 @@ useState() -> A react Hook that allows the creation of a  stateful variable and 
 [name, setName]
 
 ----------------------------------------------------------------------------------------
+
+8) useEffect() Hook : 
+
+useEffect() is a react Hook that tells react Do some code when (Pick one)
+this component re - render
+this component mounts
+the state of a value 
+
+useEffect (functions, [dependencies])
+
+1. useEffect (() => {})          //runs after every re - render
+2. useEffect (() => {}, [])      //runs only on mount
+3. useEffect (() => {}, [value]) //runs on mount + when value changes
+
+USES:
+
+1) Event Listener
+2) DOM Manipulations
+3) Subscriptions real time updates
+4) Fetching data from an API
+5) clean up when an compount unmounts
+
+----------------------------------------------------------------------------------------
+
+9) useContext Hook :(Component A, B, C, D.jsx)
+
+useContext() => react Hook allows you to share values between multiple levels of components without passing props through each level.
+
+Provider Component :
+1) import {create Context } from 'react';
+2) export const MYcontext = CreateContext();
+3) <MyContext.Provider value =(value)>
+    <Child/>
+    </MyContext.Provider>
+
+----------------------------------------------------------------------------------------
