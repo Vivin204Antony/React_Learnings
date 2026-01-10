@@ -128,3 +128,65 @@ Provider Component :
     </MyContext.Provider>
 
 ----------------------------------------------------------------------------------------
+
+HTML :
+
+HTML -> Hyper Text Markup Language
+HTML is a markup language that defines the structure and content of a web page.
+Building Block of web page with various basic tags.
+it is a blueprint of the website
+Hypertext -> text which will take us to other pages.
+markup -> set of symbols inserted in a document that instructs to controll its structure and formating.
+
+HTML TAGS :
+<h1>HEADING TAG</h1> h1 - h6 only up to 6 tags there in HTML.
+<p>PARAGRAPH TAG</p>
+<a href = "">Anchor Tag</a> creates Hyperlink to WEB Page.
+
+HTML LISTS :
+
+1) Unordered List : <ul></ul>
+2) Ordered List : <ol></ol>
+3) List Item : <li></li>
+
+HTML IFRAME : <iframe src = ""></iframe>
+An inline frame used to embedd another document within the current html document.
+
+<hr> used to create a horizontal line 
+
+<br> insert a single line break .
+
+<center></center> used to center align the content .
+
+HTML TABLE :
+
+<table>there is no table column without table row!
+    <tr>table row 
+        <td>table column
+        </td>
+    </tr>
+</table>
+
+HTML FORM :
+
+<form>
+    <input type = "">determine the data type !
+    <button type = "">determine the action to be taken!</button>
+    <input placeholder = "">determine the placeholder!
+</form>
+
+u can create a table inside a form therefore u can maintain a perfect alignmnet!
+
+<td>
+    <select>
+        <option>
+            to make a dropdown with select options !
+        </option>
+    </select>
+</td>
+
+
+these are most repeated used tags in HTML !
+
+----------------------------------------------------------------------------------------
+
